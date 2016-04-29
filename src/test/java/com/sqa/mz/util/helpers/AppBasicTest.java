@@ -10,19 +10,19 @@
 
 package com.sqa.mz.util.helpers;
 
-import org.junit.*;
+import org.testng.annotations.*;
 
 public class AppBasicTest {
 
 	static String appName = "Test MZ Application";
-	static String userName = "Michael";
+	static String userName;
 
-	@Test
+	@Test(priority = 1)
 	public void aWelcomeUserTest() {
 		userName = AppBasics.welcomeUser(appName);
 	}
 
-	@Test
+	@Test(priority = 100)
 	public void fairwellUserTest() {
 		AppBasics.fairwellUser(userName, appName);
 	}

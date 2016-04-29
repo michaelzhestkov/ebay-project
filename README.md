@@ -1,6 +1,5 @@
-### Master Branch
-
-## April, 20 2016
+## Ebay Project
+## April 28, 2016
 
 Core working directory
 
@@ -9,5 +8,6 @@ Core working directory
 - TestNG
 - Selenium
 - Eclipse
+
 
 [Michael Zhestkov](mailto:michaelzhestkov@gmail.com)
