@@ -15,12 +15,8 @@ import java.util.*;
 import org.testng.*;
 import org.testng.annotations.*;
 
-<<<<<<< HEAD:src/test/java/com/sqa/mz/util/helpers/math/MultiplicationTest.java
 import com.sqa.mz.util.helpers.*;
 
-@RunWith(Parameterized.class)
-=======
->>>>>>> origin/basic-auto-project:src/test/java/com/sqa/mz/util/helpers/MultiplicationTest.java
 public class MultiplicationTest {
 
 	@DataProvider
