@@ -24,7 +24,7 @@ public class BasicAutoTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@BeforeClass(enabled = false, groups = "firefox")
+	@BeforeClass(enabled = true, groups = "firefox")
 	public static void setUpFirefox() throws Exception {
 		driver = new FirefoxDriver();
 		baseUrl = "https://mail.google.com/";
@@ -39,11 +39,12 @@ public class BasicAutoTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@BeforeClass(enabled = true, groups = "safari")
+	@BeforeClass(enabled = false, groups = "safari")
 	public static void setUpSafari() throws Exception {
 		driver = new SafariDriver();
 		baseUrl = "https://mail.google.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		Thread.sleep(3000);
 	}
 
 	@AfterClass(alwaysRun = true)

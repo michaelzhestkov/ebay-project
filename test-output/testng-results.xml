@@ -2,96 +2,56 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48" started-at="2016-04-15T04:14:42Z" finished-at="2016-04-15T04:14:42Z">
+  <suite name="Default suite" duration-ms="4923" started-at="2016-04-29T02:23:20Z" finished-at="2016-04-29T02:23:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48" started-at="2016-04-15T04:14:42Z" finished-at="2016-04-15T04:14:42Z">
-      <class name="com.sqa.mz.util.helpers.DivisionTest">
-        <test-method status="PASS" signature="testDivideNumbers(double, double, double)[pri:0, instance:com.sqa.mz.util.helpers.DivisionTest@5ab5b91]" name="testDivideNumbers" duration-ms="12" started-at="2016-04-14T21:14:42Z" data-provider="getData" finished-at="2016-04-14T21:14:42Z">
+    <test name="Default test" duration-ms="4923" started-at="2016-04-29T02:23:20Z" finished-at="2016-04-29T02:23:25Z">
+      <class name="com.sqa.mz.util.helpers.BasicAutomationTest">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.sqa.mz.util.helpers.BasicAutomationTest@7bb613c0]" name="loadProperties" is-config="true" duration-ms="9" started-at="2016-04-28T19:23:20Z" finished-at="2016-04-28T19:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="test(java.lang.Integer, java.lang.String)[pri:0, instance:com.sqa.mz.util.helpers.BasicAutomationTest@7bb613c0]" name="test" duration-ms="5" started-at="2016-04-28T19:23:20Z" data-provider="dp" finished-at="2016-04-28T19:23:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4.0]]>
+                <![CDATA[1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2.0]]>
+                <![CDATA[a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDivideNumbers -->
-        <test-method status="PASS" signature="testDivideNumbers(double, double, double)[pri:0, instance:com.sqa.mz.util.helpers.DivisionTest@5ab5b91]" name="testDivideNumbers" duration-ms="3" started-at="2016-04-14T21:14:42Z" data-provider="getData" finished-at="2016-04-14T21:14:42Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.Integer, java.lang.String)[pri:0, instance:com.sqa.mz.util.helpers.BasicAutomationTest@7bb613c0]" name="test" duration-ms="2" started-at="2016-04-28T19:23:20Z" data-provider="dp" finished-at="2016-04-28T19:23:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6.0]]>
+                <![CDATA[2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
+                <![CDATA[b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDivideNumbers -->
-        <test-method status="PASS" signature="testDivideNumbers(double, double, double)[pri:0, instance:com.sqa.mz.util.helpers.DivisionTest@5ab5b91]" name="testDivideNumbers" duration-ms="4" started-at="2016-04-14T21:14:42Z" data-provider="getData" finished-at="2016-04-14T21:14:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.sqa.mz.util.helpers.BasicAutomationTest@7bb613c0]" name="testLogin" duration-ms="3" started-at="2016-04-28T19:23:20Z" finished-at="2016-04-28T19:23:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDivideNumbers -->
-        <test-method status="PASS" signature="testDivideNumbers(double, double, double)[pri:0, instance:com.sqa.mz.util.helpers.DivisionTest@5ab5b91]" name="testDivideNumbers" duration-ms="4" started-at="2016-04-14T21:14:42Z" data-provider="getData" finished-at="2016-04-14T21:14:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[100.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[50.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="setUpLogin()[pri:0, instance:com.sqa.mz.util.helpers.BasicAutomationTest@7bb613c0]" name="setUpLogin" duration-ms="4874" started-at="2016-04-28T19:23:20Z" finished-at="2016-04-28T19:23:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDivideNumbers -->
-      </class> <!-- com.sqa.mz.util.helpers.DivisionTest -->
+        </test-method> <!-- setUpLogin -->
+      </class> <!-- com.sqa.mz.util.helpers.BasicAutomationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
